@@ -8,9 +8,6 @@ body{
     font-family: "PT Sans", sans-serif;
     background-color: var(--color-odd-bg);
 }
-main{
-    padding-top: 235px;
-}
 .debug{
     border: 1px solid red;
 }
@@ -27,10 +24,22 @@ html {
     --color-color-gray:#4F606F;
 }
 /* utility */
+.padding-h50{
+    padding: 45px 0px 45px 0px;
+}
+.padding-h100{
+    padding:100px 0px 100px 0px; ;
+}
+.font-size{
+    font-size: 100px;
+}
+main{
+    padding-top: 235px;
+}
 .card{
-    height: 100%;
     text-align: center;
     padding: 45px 45px 0px 45px;
+    margin-bottom: 60px;
 }
 .border-radius{
     border-radius: 40px;
@@ -62,10 +71,12 @@ section {
     display: block;
     margin: 0 auto;
     width: 100%;
-    padding: 20px 20px 0px 20px;
+    padding: 60px 20px 0px 20px;
 }
 .even{
     background-color: var(--color-even-bg);
+    text-align: center;
+    
 }
 @media screen and (min-width: 768px){
     .container{
@@ -90,10 +101,6 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-   
-}
-.padding-h{
-    padding: 45px 0px 45px 0px;
 }
 ul {
     display: none;
@@ -137,26 +144,22 @@ footer{
 
 /* main */
 /* section-one */
-.phone img{
+img{
     width: 100%;
     display: block;
 }
-section-one{
+section{
     background-color: var(--color-contrast);
     
 }
-section-two{
-    height: 400px;
-}
-section-three{
-    height: 400px;
-}
-section-four{
-    height: 400px;
-}
-section-one p {
+h2{
     font-size: 2.5em;
-    line-height: 1.5;
+    line-height: 2;
+    font-weight: 550;
+}
+.gray {
+    font-size: 2.5em;
+    line-height: 2;
     font-weight: 550;
     color: var(--color-color-gray);
 }
@@ -174,4 +177,45 @@ button{
     padding: 20px;
     border-radius: 50px;
     background-color: #0084fd;
+}
+
+
+/* section-two */
+
+.h2-white{
+    font-size: 5em;
+    line-height: 2;
+    font-weight: 550;
+    color: var(--color-odd-bg);
+}
+.p-white{
+    color: var(--color-odd-bg);
+    font-size: 2.5em;
+    line-height: 1.5;
+    font-weight: 550;;
+}
+.card-a{
+    width: 100%;
+    background-color:var(--color-odd-bg);
+    border-radius: 100px;
+    padding: 60px;
+    
+
+}
+h3{
+    font-size: 4em;
+    line-height: 1.5;
+    font-weight: 550;
+}
+em{
+    font-size: 2.5em;
+    line-height: 1.5;
+   
+}
+.card-a button{
+    margin-top: 100px;
+    background-color: var(--color-even-bg);
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
 }
