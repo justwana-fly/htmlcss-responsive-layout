@@ -28,6 +28,7 @@ html {
 }
 /* utility */
 .card{
+    height: 100%;
     text-align: center;
     padding: 45px 45px 0px 45px;
 }
